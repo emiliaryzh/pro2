@@ -11,6 +11,6 @@ public class Main {
         specialized.printToo("Specialized");
         specialized.printTooToo(93);
         specialized.displayColor();
-        System.out.println();
+    
     }
 }
