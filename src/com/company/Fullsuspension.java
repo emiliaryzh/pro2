@@ -25,6 +25,7 @@ public class Fullsuspension {
         this.speed = speed;
         this.brand = brand;
 
+
     }
 
     protected void print(String color) {
@@ -37,6 +38,9 @@ public class Fullsuspension {
 
     void printTooToo(int speed) {
         System.out.println(speed);
+    }
+    public void displayColor(){
+        System.out.println(color);
     }
 
 }
